@@ -2,9 +2,10 @@ from flask import Flask, render_template, request, session , redirect
 from flask_mail import Mail
 from werkzeug.utils import secure_filename
 from werkzeug.datastructures import  FileStorage
-import json
+import json # json is pip packages
 import os
-import math
+import math # does atha on between
+
 from flask_sqlalchemy import SQLAlchemy
 from datetime import datetime
 
